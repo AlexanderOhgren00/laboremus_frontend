@@ -1,0 +1,16 @@
+.homeContainer {
+    position: relative;
+    color: black;
+    background:linear-gradient(90deg, rgb(232, 37, 53) 45%, rgba(232, 16, 16, 0.522)), url("../assets/pictures/roses.jpg");
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    height: 450px;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+
+.homeContainer div button {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}

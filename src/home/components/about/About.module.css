@@ -1,0 +1,118 @@
+.aboutContainer {
+    position: relative;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 1s;
+    color: black;
+    overflow: hidden;
+}
+
+.textContainer {
+    display: none;
+    height: 0;
+    transition: 1s;
+    margin: 75px 20px 75px 20px;
+}
+
+.pulldownCircle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    color: red;
+    border-radius: 0 0 40px 40px;
+}
+
+.reversePulldown {
+    border-radius: 40px 40px 0 0;
+    transform: translate(-40px, -40px);
+}
+
+.reverseArrow {
+    transform: rotate(180deg);
+}
+
+.pulldownCircle:first-child:hover {
+    color: white;
+}
+
+.textActive {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    height: auto;
+    gap: 20px;
+}
+
+.active {
+    height: auto;
+}
+
+.upperLine {
+    height: 5px;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.bottomLine {
+    height: 5px;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.infoContainer {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.infoContainer p {
+    color: black;
+    font-weight: 400;
+    max-width: 500px;
+    margin: 10px 10px 10px 10px;
+    font-size: 15px;
+}
+
+.infoContainer h3 {
+    color: black;
+    margin: 20px 10px 0px 10px;
+    max-width: 500px;
+}
+
+.infoContainer div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 37, 53);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+.infoContainer span {
+    color: black;
+}
+
+.infoContainer div h2 {
+    color: white;
+    margin: 0;
+}

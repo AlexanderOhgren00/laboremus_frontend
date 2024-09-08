@@ -1,0 +1,55 @@
+.adminContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashBoard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.createEventContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.welcomeContainer {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 70px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContainer button {
+    background-color: rgb(232, 37, 53);
+    color: white;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textContainer h1 {
+    color: black;
+    margin: 0;
+}
+
+.textContainer p {
+    color: black;
+    margin: 0;
+}

@@ -1,0 +1,54 @@
+.welcomeContainer {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 30px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContainer button {
+    background-color: rgb(232, 37, 53);
+    color: white;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textContainer h1 {
+    color: black;
+    margin: 0;
+}
+
+.textContainer p {
+    color: black;
+    margin: 0;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputContainer input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.inputContainer label {
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+}
