@@ -29,7 +29,7 @@ const CalendarContainer = ({calendarRef}) => {
     const sliderImagesRef = useRef(null);
 
     function getEventDates() {
-        return fetch("http://localhost:3000/events/")
+        return fetch("https://laboremus-77576a87044f.herokuapp.com/events")
             .then(response => {
                 if (!response.ok) {
                     const message = `An error has occurred: ${response.statusText}`;
