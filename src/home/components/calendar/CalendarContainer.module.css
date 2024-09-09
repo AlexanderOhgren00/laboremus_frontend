@@ -21,11 +21,3 @@
     -webkit-transition: transform .5s;
     transform: translateX(0%);
 }
-
-.weekend {
-    background-color: blue;
-}
-
-.sunday {
-    background-color: black;
-}

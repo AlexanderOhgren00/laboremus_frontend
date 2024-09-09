@@ -1,8 +1,8 @@
 import Calendar from "react-calendar";
 import { useState, useEffect, useRef } from "react";
-import styles from "./CalendarContainer.module.css";
-import 'react-calendar/dist/Calendar.css';
+import styles from "./CalendarContainer.module.css";;
 import EventList from "../eventlabel/EventList";
+import "./my_calendar.css";
 
 function debounce(func, wait, immediate) {
     var timeout;
