@@ -85,7 +85,6 @@ const CalendarContainer = ({calendarRef}) => {
         <div className={styles.subContainer} ref={calendarRef}>
             <div style={{width: "50%", display: "flex", justifyContent: "flex-start"}}>
                 <h1>Välkommen till <br/> ett helt år av <br/> spännande <span style={{color: "black"}}>underhållning</span></h1>
-
             </div>
             <div className={styles.slideContainer} ref={sliderImagesRef}>
                 <Calendar

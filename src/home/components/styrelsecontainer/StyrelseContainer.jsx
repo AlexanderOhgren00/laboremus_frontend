@@ -7,6 +7,7 @@ import Lukas from "../../../assets/pictures/Lukas.jpg";
 import Lovisa from "../../../assets/pictures/Lovisa.jpg";
 import Axel from "../../../assets/pictures/Axel.jpg";
 import Hampus from "../../../assets/pictures/Hampus.jpg";
+import Julia from "../../../assets/pictures/Julia.jpg";
 
 const StyrelseContainer = ({boardRef}) => {
 
@@ -33,7 +34,7 @@ const StyrelseContainer = ({boardRef}) => {
                         <p>Ordförande</p>
                     </div>
                     <div className={styles.textContainer}>
-                        <p>Jag heter Axel Melbin och är ordförande för studentföreningen "Laboremus" här i Uppsala. När jag inte är upptagen med föreningsarbete eller mina språkstudier på universitetet, brukar jag koppla av genom att spela dragspel. Det har blivit ett av mina största intressen, och jag gillar verkligen att kombinera musik och språk som sätt att utforska olika kulturer.</p>
+                        <p>Jag heter Axel Melbin och är ordförande för Laboremus. Jag pluggar jämförande indoeuropeisk språkforskning och juridik här i Uppsala. När jag inte fyller min tid med att vara aktiv i Laboremus brukar jag spela dragspel, engagera mig på nation och odla potatis. Jag är kroniskt föreningsberoende och innehar rekord i min vänskapskrets i antal styrelseposter för olika föreningar.</p>
                     </div>
                 </div>
                 <div className={styles.styrelseCard}>
@@ -54,7 +55,7 @@ const StyrelseContainer = ({boardRef}) => {
                     </div>
                     <div className={styles.styrelseCardContainer}>
                         <h4><b>Hugo Granström</b></h4>
-                        <p>CEO & Founder</p>
+                        <p>Ordinarie styrelseledamot</p>
                     </div>
                     <div className={styles.textContainer}>
                         <p>
@@ -71,7 +72,7 @@ const StyrelseContainer = ({boardRef}) => {
                         <p>Ordinarie styrelseledamot</p>
                     </div>
                     <div>
-                        <p>Jag heter Johanna och är ordinarie styrelseledamot i Laboremus. Jag gillar katter och pluggar till socionom.</p>
+                        <p>Jag heter Johanna och är ordinarie styrelseledamot i Laboremus. Jag gillar katter och att spela escaperoom! Just nu pluggar jag till socionom termin 3 här i Uppsala.</p>
                     </div>
                 </div>
                 <div className={styles.styrelseCard}>
@@ -86,20 +87,22 @@ const StyrelseContainer = ({boardRef}) => {
                 </div>
                 <div className={styles.styrelseCard}>
                     <div className={styles.imageContainer}>
-                        <img src={Hugo} alt="Avatar"/>
+                        <img src={Julia} alt="Avatar"/>
                     </div>
                     <div className={styles.styrelseCardContainer}>
-                        <h4><b>John Doe</b></h4>
-                        <p>CEO & Founder</p>
+                        <h4><b>Julia Karlsson</b></h4>
+                        <p>Ordinarie styrelseledamot</p>
                     </div>
+                    <div className={styles.textContainer}><p>Mitt namn är Julia och pluggar Pol Kand här i Uppsala. Tre fakta om mig är att jag aldrig säger nej till en utgång, är en fartdåre på cykel och har bäst humor i Laboremus. Motto: "inget är för storslaget" eller "allt går att fira". Jag är medlemsansvarig och kårpolitiskt ansvarig. 
+                    </p></div>
                 </div>
                 <div className={styles.styrelseCard}>
                     <div className={styles.imageContainer}>
                         <img src={Hampus} alt="Avatar"/>
                     </div>
                     <div className={styles.styrelseCardContainer}>
-                        <h4><b>John Doe</b></h4>
-                        <p>CEO & Founder</p>
+                        <h4><b>Hampus Nyhlén</b></h4>
+                        <p>Kassör</p>
                     </div>
                     <div className={styles.textContainer}>
                         <p>Jag heter Hampus och är ekonomiansvarig för studentföreningen "Laboremus" här i Uppsala. När jag inte jobbar med föreningens budget och ekonomiska frågor, tycker jag om att komma ut i naturen och vandra. Det är något speciellt med att bara ta sig ut och uppleva friheten på en vandringsled – det ger mig en chans att koppla av och ladda upp efter intensiva studier och föreningsarbete.</p>

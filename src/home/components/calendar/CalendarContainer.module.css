@@ -8,6 +8,11 @@
     overflow: hidden;
 }
 
+.subContainer h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3.5em;
+}
+
 .slideContainer {
     flex: 1;
     opacity: 0;

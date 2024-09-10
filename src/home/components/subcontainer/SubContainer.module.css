@@ -8,6 +8,11 @@
     overflow: hidden;
 }
 
+.subContainer h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3.5em;
+}
+
 .slideContainer {
     color: rgb(0, 0, 0);
     background-color: rgb(232, 37, 53);
@@ -20,6 +25,12 @@
     transform: translateX(-110%);
 }
 
+.aboutText {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 .slideContainer h2 {
     margin-top: 0;

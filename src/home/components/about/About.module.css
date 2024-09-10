@@ -95,6 +95,11 @@
     max-width: 500px;
 }
 
+.infoContainer h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.8em;
+}
+
 .infoContainer div {
     text-align: center;
     display: flex;

@@ -17,23 +17,23 @@ const Navbar = ({homeRef, aboutRef, calendarRef, eventRef, boardRef}) => {
         <div className={styles.navbarContainer}>
             <img src={Laboremus_logga} alt="Laboremus logga" style={{width: "50px", height: "50px", marginRight: "auto"}}/>
             <div onClick={() => scrollTo(homeRef)}>
-                <HomeIcon width="20px" height="20px"/>
+                <HomeIcon width="30px" height="30px"/>
                 <h4 className={styles.navbarText}>Laboremus</h4>
             </div>
             <div onClick={() => scrollTo(eventRef)}>
-                <EvenemangIcon width="20px" height="20px"/>
+                <EvenemangIcon width="30px" height="30px"/>
                 <h4>Evenemang</h4>
             </div>
             <div onClick={() => scrollTo(calendarRef)}>
-                <KalenderIcon width="20px" height="20px"/>
+                <KalenderIcon width="30px" height="30px"/>
                 <h4>Kalender</h4>
             </div>
             <div onClick={() => scrollTo(boardRef)}>
-                <StyrelseIcon width="20px" height="20px"/>
+                <StyrelseIcon width="30px" height="30px"/>
                 <h4>Styrelsen</h4>
             </div>
             <div style={{marginRight: "40px"}} onClick={() => scrollTo(aboutRef)}>
-                <AboutIcon width="20px" height="20px"/>
+                <AboutIcon width="30px" height="30px"/>
                 <h4>Om oss</h4>
             </div>        
         </div>

@@ -44,6 +44,7 @@ const SubContainer = ({eventRef}) => {
 
     return (
         <div className={styles.subContainer} ref={eventRef}>
+            <h2 className={styles.aboutText}>Om oss</h2>
             <div>
                 <div className={styles.slideContainer} ref={sliderImagesRef}>
                     <EventList events={events} setEvents={setEvents} />

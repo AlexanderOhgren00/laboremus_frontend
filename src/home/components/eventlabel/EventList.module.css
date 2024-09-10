@@ -19,11 +19,14 @@
 
 .textContainer p {
     color: white;
+    font-family: "Bebas Neue", sans-serif;
     margin: 0;
 }
 
 .textContainer h2 {
     margin-top: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.8em;
 }
 
 .listContainer {

@@ -10,6 +10,11 @@
     padding: 0 20px 0 20px;
 }
 
+.homeContainer h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3.5em;
+}
+
 .homeContainer div button {
     background-color: black;
     color: rgb(255, 255, 255);

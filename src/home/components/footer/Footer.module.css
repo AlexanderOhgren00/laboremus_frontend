@@ -2,6 +2,29 @@
     display: flex;
     background-color: rgb(232, 37, 53);
     width: 100%;
-    height: 20px;
-    padding: 75px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+.sponsorContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px 0 20px;
+    align-items: center;
+}
+.sponsorContainer p {
+    margin: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sponsorContainer h3 {
+    margin: 0;
+}
+.neurasiteContainer {
+    display: flex;
+    flex-direction: column;
+
 }

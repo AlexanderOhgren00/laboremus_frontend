@@ -6,6 +6,11 @@
     padding: 75px 20px 75px 20px;
 }
 
+.styrelseContainer h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3.5em;
+}
+
 .styrelseCard {
     display: flex;
     flex-direction: column;

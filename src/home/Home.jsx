@@ -13,7 +13,6 @@ const Home = ({eventRef, calendarRef, boardRef, aboutRef, homeRef}) => {
     const handleClick = () => {
         window.location.href = "https://s-studenter.se/bli-medlem/"
     }
-
     return (
         <>
             <div className={styles.homeContainer} ref={homeRef}>
