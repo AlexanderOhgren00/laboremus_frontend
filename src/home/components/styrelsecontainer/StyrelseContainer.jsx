@@ -5,8 +5,7 @@ import Hugo from "../../../assets/pictures/Hugo.jpg";
 import Johanna from "../../../assets/pictures/Johanna.jpg";
 import Lukas from "../../../assets/pictures/Lukas.jpg";
 import Lovisa from "../../../assets/pictures/Lovisa.jpg";
-import Hugo_border from "../../../assets/pictures/Hugo_border.jpg";
-import Axel from "../../../assets/pictures/Axel.jpeg";
+import Axel from "../../../assets/pictures/Axel.jpg";
 import Hampus from "../../../assets/pictures/Hampus.jpg";
 
 const StyrelseContainer = ({boardRef}) => {
