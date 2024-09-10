@@ -1,7 +1,4 @@
 import { useState, useEffect, useRef } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import axios from 'axios'
 import './App.css'
 import Home from "./home/Home.jsx";
 import Navbar from "./navbar/Navbar.jsx";
