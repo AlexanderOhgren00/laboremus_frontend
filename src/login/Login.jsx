@@ -39,7 +39,7 @@ const Login = (props) => {
             return
         }
 
-        if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email)) {
+        if (!/^[\w-\.]/.test(email)) {
             setEmailError("Invalid email")
             return
         }
@@ -60,7 +60,7 @@ const Login = (props) => {
 
     useEffect(() => {
         async function getAuth() {
-            const response = await fetch("http://localhost:3000/auth")
+            const response = await fetch("https://laboremus-77576a87044f.herokuapp.com/auth")
             if (!response.ok) {
                 const message = `An error has occurred: ${response.statusText}`;
                 console.error(message)
