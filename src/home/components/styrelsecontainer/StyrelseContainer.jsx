@@ -2,12 +2,14 @@ import styles from "./StyrelseContainer.module.css";
 import DownArrow from "../../../assets/icons/DownArrow.jsx";
 import { useState, useRef } from "react";
 import Hugo from "../../../assets/pictures/Hugo.jpg";
-import Johanna from "../../../assets/pictures/Johanna.jpg";
+import Johanna from "../../../assets/pictures/Johanna.jpeg";
 import Lukas from "../../../assets/pictures/Lukas.jpg";
 import Lovisa from "../../../assets/pictures/Lovisa.jpg";
 import Axel from "../../../assets/pictures/Axel.jpg";
 import Hampus from "../../../assets/pictures/Hampus.jpg";
 import Julia from "../../../assets/pictures/Julia.jpg";
+import Ilayda from "../../../assets/pictures/Ilayda.jpg"
+;
 
 const StyrelseContainer = ({boardRef}) => {
 
@@ -106,6 +108,18 @@ const StyrelseContainer = ({boardRef}) => {
                     </div>
                     <div className={styles.textContainer}>
                         <p>Jag heter Hampus och är ekonomiansvarig för studentföreningen "Laboremus" här i Uppsala. När jag inte jobbar med föreningens budget och ekonomiska frågor, tycker jag om att komma ut i naturen och vandra. Det är något speciellt med att bara ta sig ut och uppleva friheten på en vandringsled – det ger mig en chans att koppla av och ladda upp efter intensiva studier och föreningsarbete.</p>
+                    </div>
+                </div>
+                <div className={styles.styrelseCard}>
+                    <div className={styles.imageContainer}>
+                        <img src={Ilayda} alt="Avatar"/>
+                    </div>
+                    <div className={styles.styrelseCardContainer}>
+                        <h4><b>Ilayda Tatli</b></h4>
+                        <p>Ordinarie styrelseledamot</p>
+                    </div>
+                    <div className={styles.textContainer}>
+                        <p>Hej! Mitt namn är Ilayda Tatli och jag studerar lite blandat.. kommer från Lapplands djupa skogar, och har hittat mig ner till världens bästa student stad! Laboremus är en fantastisk s-student förening för dig som vill både engagera dig politiskt, men även hitta ett härligt gäng att hänga med!</p>
                     </div>
                 </div>
             </div>
