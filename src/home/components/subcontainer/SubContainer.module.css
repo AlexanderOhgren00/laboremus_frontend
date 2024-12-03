@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-between;
+    gap: 20px;
     padding: 75px 20px 75px 20px;
     color: rgb(232, 37, 53);
     overflow: hidden;
@@ -11,6 +12,10 @@
 .subContainer h1 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 3.5em;
+}
+
+.eventContainer {
+    flex: 1;
 }
 
 .slideContainer {

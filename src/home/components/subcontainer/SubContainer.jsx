@@ -45,12 +45,12 @@ const SubContainer = ({eventRef}) => {
     return (
         <div className={styles.subContainer} ref={eventRef}>
             <h2 className={styles.aboutText}>Om oss</h2>
-            <div>
+            <div className={styles.eventContainer}>
                 <div className={styles.slideContainer} ref={sliderImagesRef}>
                     <EventList events={events} setEvents={setEvents} />
                 </div>
             </div>
-            <div style={{display: "flex", alignItems: "center", justifyContent: "flex-end"}}>
+            <div style={{display: "flex", alignItems: "center", justifyContent: "flex-end", flex: "1"}}>
                 <h1 style={{color: "black"}}>Laboremus<br/> hittar alltid på<br/><span style={{color: "rgb(232, 37, 53)"}}>roliga<br/> evenemang</span></h1>
             </div>
         </div>
