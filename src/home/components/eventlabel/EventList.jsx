@@ -41,7 +41,9 @@ const EventList = ({events, setEvents, admin}) => {
                 return;
             }
             const events = await response.json();
-            setEvents(events)
+
+            const sortedEvents = events.sort((a, b) => new Date(a.date) - new Date(b.date));
+            setEvents(sortedEvents);
         }
 
         getEvents();

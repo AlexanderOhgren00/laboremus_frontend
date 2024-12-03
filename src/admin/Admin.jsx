@@ -17,14 +17,6 @@ const Admin = (props) => {
     const admin = true
     const navigate = useNavigate()
 
-    useEffect(() => {
-        console.log("this is the state", state)
-    }, [state])
-
-    useEffect(() => {
-        console.log(`current name: ${name} current date: ${date}`)
-    }, [name, date])
-
     async function createEvent(name, date, description) {
         const response = await fetch("https://laboremus-77576a87044f.herokuapp.com/events", {
             method: "POST",
@@ -43,9 +35,9 @@ const Admin = (props) => {
             console.error(message)
             return;
         }
-
         const newEvent = await response.json();
-        setEvents([...events, newEvent])
+        const updatedEvents = [...events, newEvent].sort((a, b) => new Date(a.date) - new Date(b.date));
+        setEvents(updatedEvents);
     }
 
 
